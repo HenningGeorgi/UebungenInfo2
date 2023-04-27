@@ -9,7 +9,8 @@ public class D {
             Random rd = new Random();
             boolean b = rd.nextBoolean();
             if (b) {
-                int
+                int n = (int) (Math.random() * 1000 + 1);
+                System.out.println("Die Wurzel der ganzzahligen Zufallszahl " + n + " ist " + Math.sqrt(n));
             }
         }
     }
