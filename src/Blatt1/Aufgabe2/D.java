@@ -2,14 +2,19 @@ package Blatt1.Aufgabe2;
 
 public class D {
     public static void main(String[] args) {
-        if (args.length == 0) {
+        if (args.length < 1) {
             System.err.println("Fehler");
+            System.exit(-1);
         }
 
-        StringBuilder str = new StringBuilder();
+        String str = new String();
         for (String arg : args) {
-            str.append(arg.replaceAll("STOP", ".")).append("\n");
+            if(arg.compareTo("STOP") == 0) {
+                str += ". ";
+            } else {
+                str = str + arg + " ";
+            }
         }
-        System.out.print(str);
+        System.out.print(str + "\n");
     }
 }

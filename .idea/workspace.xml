@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe3/Aufgabe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe4/Aufgabe4.java" afterDir="false" />
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Aufgabe 2,3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UebungInfo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UebungInfo2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt1/Aufgabe1/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe1/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe2/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt1/Aufgabe4/Aufgabe4.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,27 +37,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/henni/OneDrive/Studium/B.Sc. Informatik Uni Augsburg/2. Semester/Info 2/Übungen/UebungInfo2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/henni/OneDrive/Studium/B.Sc. Informatik Uni Augsburg/2. Semester/Info 2/Übungen/UebungInfo2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
@@ -81,8 +76,17 @@
       <workItem from="1682529423363" duration="131000" />
       <workItem from="1682529569729" duration="120000" />
       <workItem from="1682529740182" duration="164000" />
-      <workItem from="1682582071396" duration="5559000" />
+      <workItem from="1682582071396" duration="5601000" />
+      <workItem from="1683007897289" duration="677000" />
     </task>
+    <task id="LOCAL-00001" summary="Aufgabe 2,3">
+      <created>1682587716419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682587716419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aufgabe 2,3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 2,3" />
   </component>
 </project>

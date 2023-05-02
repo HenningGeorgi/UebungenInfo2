@@ -4,7 +4,7 @@ public class C {
     public static void main(String[] args) {
         if (args.length != 1) {
             System.err.println("Fehler");
-            System.exit(0);
+            System.exit(-1);
         }
 
         String upperCaseString = args[0].toUpperCase();
