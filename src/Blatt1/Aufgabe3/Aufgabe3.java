@@ -8,7 +8,7 @@ public class Aufgabe3 {
         Random rd = new Random();
         for (int i = 0; i < 10; i++) {
             if (coinFlip().equals("Kopf")) {
-                int rdInt = rd.nextInt(1, 20);
+                int rdInt = rd.nextInt(20) + 1;
                 System.out.println(rdInt + (isFibonacci(rdInt) ? " ist eine Fibonaccizahl" : " ist keine Fibonaccizahl"));
             } else {
                 int[] v = new int[10];
