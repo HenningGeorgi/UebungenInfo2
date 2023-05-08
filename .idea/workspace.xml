@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Added package">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe6/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe6/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe6/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe7/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe7/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe7/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe8/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt2/Aufgabe8/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt1/Aufgabe3/Aufgabe3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt1/Aufgabe3/Aufgabe3.java" afterDir="false" />
-    </list>
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Added Blatt 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +172,7 @@
       <workItem from="1683007897289" duration="2015000" />
       <workItem from="1683010366566" duration="310000" />
       <workItem from="1683055487722" duration="135000" />
-      <workItem from="1683212947089" duration="8054000" />
+      <workItem from="1683212947089" duration="8388000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe 2,3">
       <created>1682587716419</created>
@@ -210,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683009830145</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Blatt 2">
+      <created>1683221123169</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683221123169</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +223,7 @@
     <MESSAGE value="Aufgabe 2,3" />
     <MESSAGE value="Übung 1 Codereview" />
     <MESSAGE value="Added package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added package" />
+    <MESSAGE value="Added Blatt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Blatt 2" />
   </component>
 </project>
