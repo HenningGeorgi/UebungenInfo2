@@ -11,6 +11,7 @@ public class B {
             zufallarr[i] = (char) ('A' + rd.nextInt(26));
         }
         Arrays.sort(zufallarr);
+        //System.out.print(Arrays.toString(zufallarr));
         if (Arrays.binarySearch(zufallarr, 'X') < 0) {
             System.out.println("X kommt nicht vor");
             System.out.println("es sind " + (Math.abs(Arrays.binarySearch(zufallarr, 'X'))-1) + " Buchstaben kleiner als X");
