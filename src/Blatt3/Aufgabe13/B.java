@@ -10,6 +10,7 @@ public class B {
         for (int i = 0; i < zufallarr.length; i++) {
             zufallarr[i] = (char) ('A' + rd.nextInt(26));
         }
+
         Arrays.sort(zufallarr);
         if (Arrays.binarySearch(zufallarr, 'X') < 0) {
             System.out.println("X kommt nicht vor");
