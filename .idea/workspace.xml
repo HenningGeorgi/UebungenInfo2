@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13" />
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/B.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +79,7 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Blatt3.Aufgabe13.B">
+  <component name="RunManager" selected="Application.Blatt3.Aufgabe12.B">
     <configuration name="B" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Blatt2.Aufgabe6.B" />
       <module name="UebungInfo2" />
@@ -190,9 +193,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Blatt3.Aufgabe12.B" />
         <item itemvalue="Application.Blatt3.Aufgabe13.B" />
         <item itemvalue="Application.Blatt3.Aufgabe13.A" />
-        <item itemvalue="Application.Blatt3.Aufgabe12.B" />
         <item itemvalue="Application.Blatt2.Aufgabe7.B" />
         <item itemvalue="Application.B" />
       </list>

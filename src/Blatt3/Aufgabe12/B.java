@@ -18,6 +18,6 @@ public class B {
                 lastPointIndex = i;
             }
         }
-        return lastPointIndex > -1 ? filename.subSequence(lastPointIndex, filename.length() - 1) : "";
+        return lastPointIndex > -1 ? filename.subSequence(lastPointIndex, filename.length()) : "";
     }
 }
