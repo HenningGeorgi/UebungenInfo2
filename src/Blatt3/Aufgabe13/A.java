@@ -2,13 +2,14 @@ package Blatt3.Aufgabe13;
 
 import java.util.Arrays;
 import java.lang.Math;
-
+import java.util.Random;
     public class A {
         public static void main(String[] args) {
             int[] arr = new int[500];
+            Random rd = new Random();
             int [] copyarr = new int[arr.length/2];
             for (int i = 0; i < arr.length;i++){
-                arr[i] = (int)(Math.random()*9+1);
+                arr[i] = rd.nextInt(1,10);
             }
             System.arraycopy(arr,0,copyarr,0,arr.length/2);
             Arrays.sort(copyarr);
