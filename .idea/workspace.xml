@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13">
-      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/B.java" afterDir="false" />
-    </list>
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,11 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
