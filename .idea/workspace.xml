@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="hab nur geändert das nach dem punkt alles ausgeben wird">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/A.java" afterDir="false" />
-    </list>
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683720987160</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finish 13">
+      <created>1683721656379</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683721656379</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,8 +367,8 @@
     <MESSAGE value="added C Class" />
     <MESSAGE value="added 13a" />
     <MESSAGE value="added 13b" />
-    <MESSAGE value="finish 13" />
     <MESSAGE value="hab nur geändert das nach dem punkt alles ausgeben wird" />
-    <option name="LAST_COMMIT_MESSAGE" value="hab nur geändert das nach dem punkt alles ausgeben wird" />
+    <MESSAGE value="finish 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish 13" />
   </component>
 </project>
