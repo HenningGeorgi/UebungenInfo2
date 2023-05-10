@@ -5,7 +5,7 @@ import java.lang.Math;
 import java.util.Random;
     public class A {
         public static void main(String[] args) {
-            int[] arr = new int[500];
+            int[] arr = new int[10000];
             Random rd = new Random();
             int [] copyarr = new int[arr.length/2];
             for (int i = 0; i < arr.length;i++){
