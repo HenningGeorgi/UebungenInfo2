@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13">
+      <change afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe14/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,30 +79,15 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Blatt3.Aufgabe13.A">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt2.Aufgabe6.B" />
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.A" />
       <module name="UebungInfo2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt2.Aufgabe6.*" />
+          <option name="PATTERN" value="Blatt3.Aufgabe14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,19 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.C" />
+      <item itemvalue="Application.A" />
       <item itemvalue="Application.Blatt3.Aufgabe12.B" />
       <item itemvalue="Application.Blatt3.Aufgabe13.A" />
       <item itemvalue="Application.Blatt3.Aufgabe13.B" />
       <item itemvalue="Application.Blatt2.Aufgabe7.B" />
-      <item itemvalue="Application.B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.Blatt3.Aufgabe13.A" />
         <item itemvalue="Application.Blatt3.Aufgabe12.B" />
         <item itemvalue="Application.Blatt3.Aufgabe13.B" />
         <item itemvalue="Application.Blatt2.Aufgabe7.B" />
-        <item itemvalue="Application.B" />
       </list>
     </recent_temporary>
   </component>
