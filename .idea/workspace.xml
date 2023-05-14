@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="finish 13">
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Added Aufgabe 12">
+      <change afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe14/Aufgabe14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,41 +83,27 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Blatt3.Aufgabe13.A">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt2.Aufgabe6.B" />
+  <component name="RunManager" selected="Application.Aufgabe14">
+    <configuration name="Aufgabe14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.Aufgabe14" />
       <module name="UebungInfo2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt2.Aufgabe6.*" />
+          <option name="PATTERN" value="Blatt3.Aufgabe14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blatt2.Aufgabe7.B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt2.Aufgabe7.B" />
+    <configuration name="Blatt3.Aufgabe12.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe12.A" />
       <module name="UebungInfo2" />
+      <option name="PROGRAM_PARAMETERS" value="Mathematik mqwfiobwioegfuhoimatik" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt2.Aufgabe7.*" />
+          <option name="PATTERN" value="Blatt3.Aufgabe12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +175,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.C" />
+      <item itemvalue="Application.Aufgabe14" />
       <item itemvalue="Application.Blatt3.Aufgabe12.B" />
       <item itemvalue="Application.Blatt3.Aufgabe13.A" />
       <item itemvalue="Application.Blatt3.Aufgabe13.B" />
-      <item itemvalue="Application.Blatt2.Aufgabe7.B" />
-      <item itemvalue="Application.B" />
+      <item itemvalue="Application.Blatt3.Aufgabe12.A" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe14" />
+        <item itemvalue="Application.Blatt3.Aufgabe13.B" />
         <item itemvalue="Application.Blatt3.Aufgabe13.A" />
         <item itemvalue="Application.Blatt3.Aufgabe12.B" />
-        <item itemvalue="Application.Blatt3.Aufgabe13.B" />
-        <item itemvalue="Application.Blatt2.Aufgabe7.B" />
-        <item itemvalue="Application.B" />
+        <item itemvalue="Application.Blatt3.Aufgabe12.A" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +212,9 @@
       <workItem from="1683518854056" duration="128000" />
       <workItem from="1683519012364" duration="705000" />
       <workItem from="1683571556595" duration="2563000" />
+      <workItem from="1683746793808" duration="1218000" />
+      <workItem from="1683796477573" duration="597000" />
+      <workItem from="1684052307368" duration="5610000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe 2,3">
       <created>1682587716419</created>
@@ -264,97 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1683519708489</updated>
     </task>
-    <task id="LOCAL-00007" summary="added C Class">
-      <created>1683641591918</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1683641591918</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added 13a">
-      <created>1683642734972</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1683642734972</updated>
-    </task>
-    <task id="LOCAL-00009" summary="added 13a">
-      <created>1683669347557</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1683669347557</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added 13b">
-      <created>1683669390423</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1683669390423</updated>
-    </task>
-    <task id="LOCAL-00011" summary="finish 13">
-      <created>1683672938506</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1683672938506</updated>
-    </task>
-    <task id="LOCAL-00012" summary="hab nur geändert das nach dem punkt alles ausgeben wird">
-      <created>1683720987160</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1683720987160</updated>
-    </task>
-    <task id="LOCAL-00013" summary="finish 13">
-      <created>1683721656379</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1683721656379</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="a32009f8-bf88-488d-ac7b-dcb8186f43fd" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State />
-          </value>
-        </entry>
-        <entry key="a32009f8-bf88-488d-ac7b-dcb8186f43fd">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:C:/Users/monke/IdeaProjects/UebungInfo2/src" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
           </value>
         </entry>
       </map>
@@ -366,11 +281,6 @@
     <MESSAGE value="Added package" />
     <MESSAGE value="Added Blatt 2" />
     <MESSAGE value="finished Blatt 2" />
-    <MESSAGE value="added C Class" />
-    <MESSAGE value="added 13a" />
-    <MESSAGE value="added 13b" />
-    <MESSAGE value="hab nur geändert das nach dem punkt alles ausgeben wird" />
-    <MESSAGE value="finish 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Blatt 2" />
   </component>
 </project>
