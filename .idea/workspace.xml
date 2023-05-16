@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Added Aufgabe 12">
-      <change afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe14/Aufgabe14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe12/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt3/Aufgabe13/A.java" afterDir="false" />
-    </list>
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Added Aufgabe 12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
