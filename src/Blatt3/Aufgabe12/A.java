@@ -8,12 +8,11 @@ public class A {
         System.arraycopy(args,0,argArray,0,args.length);
         String matikStr = "matik";
         CharSequence str = matikStr;
-
         for (CharSequence arg : argArray ) {
             if (arg.length() >= str.length()) {
-                for (int i = 0; i < arg.length() - str.length(); i++) {
+                for (int i = 0; i < arg.length() - str.length() + 1; i++) {
                     if (arg.subSequence(i, i + str.length()).equals(matikStr)) {
-                        System.out.println("Erste Position des Vorkommens: "+i);
+                        System.out.println("Erste Position des Vorkommens: " + i);
                     }
                 }
             }
