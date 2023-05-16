@@ -166,12 +166,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.C" />
       <item itemvalue="Application.A" />
+      <item itemvalue="Application.Blatt2.Aufgabe7.B" />
       <item itemvalue="Application.Blatt3.Aufgabe12.B" />
       <item itemvalue="Application.Blatt3.Aufgabe13.A" />
       <item itemvalue="Application.Blatt3.Aufgabe13.B" />
-      <item itemvalue="Application.Blatt2.Aufgabe7.B" />
+      <item itemvalue="Application.C" />
     </list>
     <recent_temporary>
       <list>
