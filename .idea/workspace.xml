@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="Added Aufgabe 12" />
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added new branch &amp; Blatt4 Aufgabe 19">
+      <change afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe14/A.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -274,6 +284,7 @@
     <MESSAGE value="Added package" />
     <MESSAGE value="Added Blatt 2" />
     <MESSAGE value="finished Blatt 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Blatt 2" />
+    <MESSAGE value="added new branch &amp; Blatt4 Aufgabe 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new branch &amp; Blatt4 Aufgabe 19" />
   </component>
 </project>
