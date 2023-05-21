@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added new branch &amp; Blatt4 Aufgabe 19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/B.java" afterDir="false" />
-    </list>
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="16/17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -85,13 +82,13 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Blatt4.Aufgabe19.A">
-    <configuration name="Aufgabe14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.Aufgabe14" />
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe16.A" />
       <module name="UebungInfo2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt3.Aufgabe14.*" />
+          <option name="PATTERN" value="Blatt4.Aufgabe16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe19.B" />
+    <configuration name="Aufgabe14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.Aufgabe14" />
       <module name="UebungInfo2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt4.Aufgabe19.*" />
+          <option name="PATTERN" value="Blatt3.Aufgabe14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,7 +305,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Raphael" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -320,7 +329,7 @@
     <MESSAGE value="Added package" />
     <MESSAGE value="Added Blatt 2" />
     <MESSAGE value="finished Blatt 2" />
-    <MESSAGE value="added new branch &amp; Blatt4 Aufgabe 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new branch &amp; Blatt4 Aufgabe 19" />
+    <MESSAGE value="16/17" />
+    <option name="LAST_COMMIT_MESSAGE" value="16/17" />
   </component>
 </project>
