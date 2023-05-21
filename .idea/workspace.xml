@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added new branch &amp; Blatt4 Aufgabe 19">
-      <change afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt3/Aufgabe14/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe19/B.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aufgabe14">
+  <component name="RunManager" selected="Application.Blatt4.Aufgabe19.A">
     <configuration name="Aufgabe14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.Aufgabe14" />
       <module name="UebungInfo2" />
@@ -100,13 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blatt3.Aufgabe12.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe12.A" />
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe19.B" />
       <module name="UebungInfo2" />
-      <option name="PROGRAM_PARAMETERS" value="Mathematik mqwfiobwioegfuhoimatik" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Blatt3.Aufgabe12.*" />
+          <option name="PATTERN" value="Blatt4.Aufgabe19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,6 +151,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Blatt4.Aufgabe19.A" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe19.A" />
+      <module name="UebungInfo2" />
+      <option name="PROGRAM_PARAMETERS" value="Apfel birne vodka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt4.Aufgabe19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Blatt2.Aufgabe6.C" />
       <module name="UebungInfo2" />
@@ -177,20 +204,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Blatt4.Aufgabe19.A" />
       <item itemvalue="Application.C" />
+      <item itemvalue="Application.B" />
       <item itemvalue="Application.Aufgabe14" />
       <item itemvalue="Application.Blatt3.Aufgabe12.B" />
       <item itemvalue="Application.Blatt3.Aufgabe13.A" />
       <item itemvalue="Application.Blatt3.Aufgabe13.B" />
-      <item itemvalue="Application.Blatt3.Aufgabe12.A" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B" />
         <item itemvalue="Application.Aufgabe14" />
         <item itemvalue="Application.Blatt3.Aufgabe13.B" />
         <item itemvalue="Application.Blatt3.Aufgabe13.A" />
         <item itemvalue="Application.Blatt3.Aufgabe12.B" />
-        <item itemvalue="Application.Blatt3.Aufgabe12.A" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +246,7 @@
       <workItem from="1683746793808" duration="1218000" />
       <workItem from="1683796477573" duration="597000" />
       <workItem from="1684052307368" duration="5610000" />
+      <workItem from="1684694293087" duration="2974000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe 2,3">
       <created>1682587716419</created>
@@ -261,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683519708489</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added new branch &amp; Blatt4 Aufgabe 19">
+      <created>1684342619180</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684342619180</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

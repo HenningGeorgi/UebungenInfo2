@@ -6,7 +6,7 @@ import java.util.function.UnaryOperator;
 
 public class A {
     public static void main(String[] args) {
-        ArrayList<String> stringList = new ArrayList<String>(Arrays.asList(args));
+        ArrayList<String> stringList = new ArrayList<>(Arrays.asList(args));
         UnaryOperator<String> upperCase = String::toUpperCase;
         stringList.forEach(upperCase::apply);
         stringList.removeIf(s -> (s.startsWith("A")));
