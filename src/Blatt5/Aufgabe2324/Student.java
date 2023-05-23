@@ -1,7 +1,5 @@
 package Blatt5.Aufgabe2324;
 
-import java.util.regex.Pattern;
-
 public class Student {
     private String name;
     private int matrikelnummer;
@@ -32,6 +30,10 @@ public class Student {
             throw new IllegalArgumentException();
         }
         this.name = name;
+    }
+
+    public String getStudentString() {
+        return "("+matrikelnummer+", "+name+")";
     }
 
     public void setMatrikelnummer(int matrikelnummer) {
