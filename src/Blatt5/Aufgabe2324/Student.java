@@ -1,15 +1,20 @@
 package Blatt5.Aufgabe2324;
 
+import java.util.ArrayList;
+
 public class Student {
     private String name;
     private int matrikelnummer;
+    private static ArrayList<Integer> usedMatrikelnummern = new ArrayList<>();
 
     public Student(String name, int matrikelnummer) {
-
+        setName(name);
+        setMatrikelnummer(matrikelnummer);
+        usedMatrikelnummern.add(getMatrikelnummer());
     }
 
     boolean checkName(String name) {
-        if (name == null || name.length() == 0) return false;
+        if (name == null || name.trim().length() == 0) return false;
         return name.matches("\\p{Upper}.*");
     }
 
@@ -29,11 +34,7 @@ public class Student {
         if (!checkName(name)) {
             throw new IllegalArgumentException();
         }
-        this.name = name;
-    }
-
-    public String getStudentString() {
-        return "("+matrikelnummer+", "+name+")";
+        this.name = name.trim();
     }
 
     public void setMatrikelnummer(int matrikelnummer) {
@@ -41,5 +42,9 @@ public class Student {
             throw new IllegalArgumentException();
         }
         this.matrikelnummer = matrikelnummer;
+    }
+
+    public void ausgabe() {
+        System.out.println("(" + getMatrikelnummer() + ", " + getName() + ")");
     }
 }

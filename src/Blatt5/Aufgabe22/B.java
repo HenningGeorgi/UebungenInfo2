@@ -10,6 +10,6 @@ public class B {
         Random rd = new Random();
         IntSupplier supplier = () -> array[rd.nextInt(array.length)];
         IntStream stream = IntStream.generate(supplier).limit(100);
-        System.out.println("Die Summe ist: " + stream.reduce((n, m) -> n + m).orElse(0));
+        System.out.println("Die Summe ist: " + stream.reduce(Integer::sum).orElse(0));
     }
 }

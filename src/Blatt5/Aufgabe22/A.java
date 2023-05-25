@@ -5,7 +5,8 @@ import java.util.stream.IntStream;
 
 public class A {
     public static void main(String[] args) {
-        IntStream intStream = Random.ints(1000,0, 100);
+        Random rd = new Random();
+        IntStream intStream = rd.ints(1000,0, 100);
         intStream.forEach(s -> s = s / 10);
         intStream = intStream.distinct();
         System.out.println("Die Summe der verbleibenden Zahlen ist: "+intStream.sum());
