@@ -5,12 +5,10 @@ import java.util.ArrayList;
 public class Student {
     private String name;
     private int matrikelnummer;
-    private static ArrayList<Integer> usedMatrikelnummern = new ArrayList<>();
 
     public Student(String name, int matrikelnummer) {
         setName(name);
         setMatrikelnummer(matrikelnummer);
-        usedMatrikelnummern.add(getMatrikelnummer());
     }
 
     boolean checkName(String name) {
