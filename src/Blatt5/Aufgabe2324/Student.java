@@ -1,7 +1,5 @@
 package Blatt5.Aufgabe2324;
 
-import java.util.ArrayList;
-
 public class Student {
     private String name;
     private int matrikelnummer;
