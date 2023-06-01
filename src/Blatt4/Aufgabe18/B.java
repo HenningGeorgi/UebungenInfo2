@@ -1,4 +1,3 @@
-package Blatt4.Aufgabe18;
 
 import java.util.HashMap;
 import java.util.Map;
