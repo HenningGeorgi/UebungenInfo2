@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="18a und b">
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Aufgabe2627">
+      <change afterPath="$PROJECT_DIR$/src/Blatt6/Aufgabe28/A28_main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt6/Aufgabe28/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt6/Aufgabe28/IllegalBankingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt4/Aufgabe18/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe18/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blatt4/Aufgabe18/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt4/Aufgabe18/B.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +85,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt6\Aufgabe28" />
+      <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt6\Aufgabe2627" />
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
@@ -242,6 +246,7 @@
       <workItem from="1683796477573" duration="597000" />
       <workItem from="1684052307368" duration="5610000" />
       <workItem from="1684694293087" duration="2974000" />
+      <workItem from="1685944350458" duration="3186000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe 2,3">
       <created>1682587716419</created>
@@ -299,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684699200700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added Aufgabe2627">
+      <created>1685610226190</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685610226190</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +348,7 @@
     <MESSAGE value="finished Blatt 2" />
     <MESSAGE value="16/17" />
     <MESSAGE value="18a und b" />
-    <option name="LAST_COMMIT_MESSAGE" value="18a und b" />
+    <MESSAGE value="added Aufgabe2627" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Aufgabe2627" />
   </component>
 </project>
