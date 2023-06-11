@@ -6,7 +6,7 @@ public class BankAccount {
     private String accountHolderName;
     private String accountNumber;
     private final LocalDate openingDate;
-    private double balance = 0;
+    private int balance = 0;
 
     public BankAccount(String accountHolderName, String accountNumber) throws IllegalArgumentException {
         setAccountHolderName(accountHolderName);
