@@ -22,7 +22,6 @@ public class Aufgabe29a extends JFrame {
         northPanel.add(accountNumberTextField);
         add(northPanel, BorderLayout.NORTH);
 
-        // Create the south panel with the Ok and Cancel buttons
         JPanel southPanel = new JPanel();
         southPanel.setBackground(Color.GRAY);
         southPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
