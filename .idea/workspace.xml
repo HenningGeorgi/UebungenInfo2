@@ -89,7 +89,7 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A28_main">
+  <component name="RunManager" selected="Application.Aufgabe29Main">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe18.A" />
       <module name="UebungInfo2" />
@@ -129,22 +129,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B" />
+    <configuration name="Aufgabe29Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt6.Aufgabe29.Aufgabe29Main" />
       <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt6.Aufgabe29.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe19.B" />
+    <configuration name="B (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B" />
       <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt4.Aufgabe19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,19 +204,19 @@
     <list>
       <item itemvalue="Application.Blatt4.Aufgabe19.A" />
       <item itemvalue="Application.C" />
+      <item itemvalue="Application.Aufgabe29Main" />
       <item itemvalue="Application.A2627_main" />
       <item itemvalue="Application.A28_main" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.B (1)" />
-      <item itemvalue="Application.B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe29Main" />
         <item itemvalue="Application.A28_main" />
         <item itemvalue="Application.A2627_main" />
         <item itemvalue="Application.B (1)" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.B" />
       </list>
     </recent_temporary>
   </component>
