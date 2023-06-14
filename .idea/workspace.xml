@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Aufgabe29" />
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Aufgabe29">
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/LabelCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/LabelCreatorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/TitleChanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/WhackNMoles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe33/CountDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe33/DontMinimizeMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe33/KeyCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,20 +93,7 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aufgabe29Main">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe18.A" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt4.Aufgabe18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KeyCounter">
     <configuration name="A2627_main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blatt6.Aufgabe2627.A2627_main" />
       <module name="UebungInfo2" />
@@ -133,13 +129,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B" />
-      <module name="UebungInfo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,22 +185,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DontMinimizeMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe33.DontMinimizeMe" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt7.Aufgabe33.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe33.KeyCounter" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt7.Aufgabe33.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Blatt4.Aufgabe19.A" />
       <item itemvalue="Application.C" />
+      <item itemvalue="Application.DontMinimizeMe" />
+      <item itemvalue="Application.KeyCounter" />
       <item itemvalue="Application.Aufgabe29Main" />
       <item itemvalue="Application.A2627_main" />
       <item itemvalue="Application.A28_main" />
-      <item itemvalue="Application.A" />
-      <item itemvalue="Application.B (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeyCounter" />
+        <item itemvalue="Application.DontMinimizeMe" />
         <item itemvalue="Application.Aufgabe29Main" />
         <item itemvalue="Application.A28_main" />
         <item itemvalue="Application.A2627_main" />
-        <item itemvalue="Application.B (1)" />
-        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -359,5 +374,16 @@
     <MESSAGE value="added Aufgabe2627" />
     <MESSAGE value="added Aufgabe29" />
     <option name="LAST_COMMIT_MESSAGE" value="added Aufgabe29" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Blatt7/Aufgabe3132/WhackNMoles.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
