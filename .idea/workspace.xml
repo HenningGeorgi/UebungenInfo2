@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Aufgabe29">
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/LabelCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/LabelCreatorListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/TitleChanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe3132/WhackNMoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe33/CountDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe33/DontMinimizeMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt7/Aufgabe33/KeyCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Aufgabe31,32,33" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686520427670</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added Aufgabe31,32,33">
+      <created>1686783528115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686783528115</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +371,8 @@
     <MESSAGE value="18a und b" />
     <MESSAGE value="added Aufgabe2627" />
     <MESSAGE value="added Aufgabe29" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Aufgabe29" />
+    <MESSAGE value="added Aufgabe31,32,33" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Aufgabe31,32,33" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
