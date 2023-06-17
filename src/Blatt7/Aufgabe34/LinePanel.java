@@ -51,7 +51,6 @@ public class LinePanel extends JPanel implements MouseListener, MouseMotionListe
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        Point davor = points.get(points.size()-1);
         Point aktuel = e.getPoint();
         points.remove(points.size()-1);
         points.add(aktuel);
