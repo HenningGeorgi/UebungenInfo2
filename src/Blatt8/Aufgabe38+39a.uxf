@@ -5,14 +5,12 @@
     <id>UMLClass</id>
     <coordinates>
       <x>120</x>
-      <y>60</y>
+      <y>90</y>
       <w>710</w>
-      <h>130</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>&lt;&lt;datatype&gt;&gt;
 Bank
---
--bankAccounts: java.util.HashSet&lt;BankAccount&gt; {readOnly}
 --
 +createBankAccount(in String accountHolderName: String, in accountNumber: String) {IllegalBankingException}
 +getBalanceByHolder(in accountHolderName: String): Real
@@ -24,7 +22,7 @@ Bank
     <id>UMLClass</id>
     <coordinates>
       <x>1010</x>
-      <y>80</y>
+      <y>120</y>
       <w>270</w>
       <h>80</h>
     </coordinates>
@@ -38,7 +36,7 @@ IllegalBankingException(message: String)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>820</x>
-      <y>120</y>
+      <y>130</y>
       <w>210</w>
       <h>30</h>
     </coordinates>
@@ -49,12 +47,12 @@ IllegalBankingException(message: String)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1140</x>
-      <y>150</y>
+      <y>190</y>
       <w>30</w>
-      <h>190</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -105,11 +103,13 @@ _-checkAccountNumber(in accountNumber: String): Boolean_
     <coordinates>
       <x>470</x>
       <y>180</y>
-      <w>60</w>
+      <w>120</w>
       <h>200</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=[0...*]</panel_attributes>
+{readOnly}
+m1=[0...*]
+r1=-bankAccounts</panel_attributes>
     <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

@@ -4,19 +4,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>60</x>
+      <x>50</x>
       <y>210</y>
       <w>1160</w>
-      <h>280</h>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;datatype&gt;&gt;
-Restaurant
+    <panel_attributes>Restaurant
 --
 -name: String {0 &lt; |name| &lt;= 20} {}
 -oeffungszeit: java.time.LocalDateTime {oeffnungszeit &lt; schließungszeit}
 -schließungszeit: java.time.LocalDateTime
 -gerichte: java.util.ArrayList&lt;String&gt;
--adresse: Adresse
 --
 +Restaurant(name: String, oeffnungszeit: java.time.LocalDateTime, schließungszeit:java.time.LocalDate, gerichte: Array&lt;String&gt;, adresse: Adresse) {java.lang.IllegalArgumentException}
 +getName(): String
@@ -32,13 +30,12 @@ Restaurant
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1320</x>
+      <x>1360</x>
       <y>210</y>
       <w>760</w>
-      <h>280</h>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;datatype&gt;&gt;
-Adresse
+    <panel_attributes>Adresse
 --
 -stadt: String {|stadt| &gt; 0}
 -plz: Integer {|plz| = 5}
@@ -59,12 +56,13 @@ Adresse
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1210</x>
-      <y>270</y>
-      <w>130</w>
-      <h>30</h>
+      <x>1200</x>
+      <y>260</y>
+      <w>180</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;-
+r1=-adresse</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

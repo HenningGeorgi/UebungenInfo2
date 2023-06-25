@@ -8,14 +8,13 @@
       <x>300</x>
       <y>80</y>
       <w>660</w>
-      <h>300</h>
+      <h>280</h>
     </coordinates>
     <panel_attributes>&lt;&lt;datatype&gt;&gt;
 RentalBike
 --
 -id: Integer {unique}
 -hersteller: String {maxLength: 20}
--typ: Typ
 -mietpreis: Real {mietpreis &gt;= 0} | null
 -rabatt: Real = 0.20
 --
@@ -51,11 +50,12 @@ MOUNTAIN BIKE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>950</x>
-      <y>130</y>
+      <y>120</y>
       <w>160</w>
-      <h>30</h>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;-
+r1=-typ</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>

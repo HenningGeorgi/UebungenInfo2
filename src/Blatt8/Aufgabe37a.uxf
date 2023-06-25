@@ -7,27 +7,21 @@
       <x>90</x>
       <y>100</y>
       <w>230</w>
-      <h>190</h>
+      <h>180</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;datatype&gt;&gt;
-userAccount
+    <panel_attributes>userAccount
 --
 -username: String {unique}
 -password: String {length: 4}
 -age: UnlimitedNatural {age &gt;= 12}
--sex: Sex
--interests: List
--following: 
--followers: 
---
--</panel_attributes>
+-interests: List</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>100</y>
+      <x>150</x>
+      <y>390</y>
       <w>130</w>
       <h>100</h>
     </coordinates>
@@ -42,12 +36,28 @@ diverse</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>150</y>
-      <w>200</w>
-      <h>30</h>
+      <x>200</x>
+      <y>270</y>
+      <w>50</w>
+      <h>140</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>180.0;10.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;-
+r1=-sex</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>110</y>
+      <w>130</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+r1=-following
+m1=[0..*]
+r2=-followers
+m2=[0..*]</panel_attributes>
+    <additional_attributes>10.0;130.0;110.0;130.0;110.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
