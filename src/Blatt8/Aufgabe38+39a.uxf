@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>60</y>
+      <w>710</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+Bank
+--
+-bankAccounts: java.util.HashSet&lt;BankAccount&gt; {readOnly}
+--
++createBankAccount(in String accountHolderName: String, in accountNumber: String) {IllegalBankingException}
++getBalanceByHolder(in accountHolderName: String): Real
++addBalance(in accoungNumber: String, in amout: Real) {IllegalBankingException}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1010</x>
+      <y>80</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+IllegalBankingException
+--
+IllegalBankingException(message: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>120</y>
+      <w>210</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1140</x>
+      <y>150</y>
+      <w>30</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1050</x>
+      <y>320</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+Exception
+--
+Exception(message: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>360</y>
+      <w>710</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+BankAccount
+--
+-accountHolderName: String
+-accountNumber: String
+-openingDate: java.time.LocalDate = java.time.LocalDate.now() {readonly}
+-balance: Real = 0
+--
++BankAccount(accountHolderName: String, accountNumber: String) {java.lang.IllegalArgumentException}
+_-checkAccountHolderName(in accountHolderName: String): Boolean_
+_-checkAccountNumber(in accountNumber: String): Boolean_
++setAccountHolderName(in accountHolderName: String) {java.lang.IllegalArgumentException}
++addBalance(in value: Real)
+-setAccountNumber(in accountNumber: String) {java.lang.IllegalArgumentException}
++getAccountHolderName(): String
++getAccountNumber(): String
++getBalance(): Real
++getOpeningDate(): LocalDate
++toString(): String
++equals(in o: java.lang.Object): Boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>180</y>
+      <w>60</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[0...*]</panel_attributes>
+    <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

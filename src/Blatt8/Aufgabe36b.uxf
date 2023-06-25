@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>210</y>
+      <w>1160</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+Restaurant
+--
+-name: String {0 &lt; |name| &lt;= 20} {}
+-oeffungszeit: java.time.LocalDateTime {oeffnungszeit &lt; schließungszeit}
+-schließungszeit: java.time.LocalDateTime
+-gerichte: java.util.ArrayList&lt;String&gt;
+-adresse: Adresse
+--
++Restaurant(name: String, oeffnungszeit: java.time.LocalDateTime, schließungszeit:java.time.LocalDate, gerichte: Array&lt;String&gt;, adresse: Adresse) {java.lang.IllegalArgumentException}
++getName(): String
++setName(in newName: String) {java.lang.IllegalArgumentException}
++getOeffnungszeiten(): String
++setOeffnungszeiten(in oeffnungszeit: java.time.LocalDateTime, in schließungszeit: java.time.LocalDateTime) {java.lang.IllegalArgumentException}
++getGerichte(): java.util.ArrayList&lt;String&gt;
++setGerichte(in newGerichte: java.util.ArrayList&lt;String&gt;)
++addGericht(in gericht: String)
++removeGericht(in gericht: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1320</x>
+      <y>210</y>
+      <w>760</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+Adresse
+--
+-stadt: String {|stadt| &gt; 0}
+-plz: Integer {|plz| = 5}
+-straße: String {|straße| &gt; 0}
+-hausnummer: UnlimitedNatural
+--
++Adresse(stadt: String, plz: Integer, straße: String, hausnummer: UnlimitedNatural) {java.lang.IllegalArgumentException}
++getStadt(): String
++setStadt(in stadt: String) {java.lang.IllegalArgumentException}
++getPlz(): Integer
++setPlz(in plz: Integer) {java.lang.IllegalArgumentException}
++getStraße(): String
++setStraße(in straße: String) {java.lang.IllegalArgumentException}
++getHausnummer(): UnlimitedNatural
++setHausnummer(in hausnummer: UnlimitedNatural) {java.lang.IllegalArgumentException}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1210</x>
+      <y>270</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

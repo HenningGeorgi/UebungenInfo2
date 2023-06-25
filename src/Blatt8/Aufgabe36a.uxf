@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>80</y>
+      <w>660</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datatype&gt;&gt;
+RentalBike
+--
+-id: Integer {unique}
+-hersteller: String {maxLength: 20}
+-typ: Typ
+-mietpreis: Real {mietpreis &gt;= 0} | null
+-rabatt: Real = 0.20
+--
++RentalBike(id: Integer, hersteller: String, typ: Typ, mietpreis: Real) {java.lang.IllegalArgumentException}
++getId(): Integer
++getHersteller(): String
++getTyp(): Typ
++getMietpreis(): Real {mietpreis - (rabatt * mietpreis) bei Frühlingsbeginn}
++setId(in id: Integer) {java.lang.IllegalArgumentException}
++setHersteller(in hersteller: String) {java.lang.IllegalArgumentException}
++setTyp(in typ: Typ)
+_-checkId(in id: Integer): Boolean_
+_-checkHersteller(in hersteller: String): Boolean_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1090</x>
+      <y>80</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Typ
+--
+CITY BIKE
+TOURING BIKE
+MOUNTAIN BIKE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>130</y>
+      <w>160</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
