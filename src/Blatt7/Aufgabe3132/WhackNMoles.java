@@ -18,10 +18,8 @@ public class WhackNMoles extends JFrame {
             button.addActionListener(e -> {
                 button.setEnabled(false);
                 count++;
-                if(count == x){
-                    setDefaultCloseOperation(EXIT_ON_CLOSE);
-                    this.dispose();
-                }
+                if(count == x)
+                    dispose();
             });
         }
         pack();
@@ -29,7 +27,7 @@ public class WhackNMoles extends JFrame {
     }
 
     public static void main(String[] args) {
-        WhackNMoles a = new WhackNMoles(23);
+        WhackNMoles a = new WhackNMoles(4);
     }
 }
 
