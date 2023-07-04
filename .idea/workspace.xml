@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Aufgabe34" />
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="class instead of datatype &amp; finished Aufgabe38+39b">
+      <change afterPath="$PROJECT_DIR$/src/Blatt10/data/BankAccountContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt8/Aufgabe37a.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt8/Aufgabe37a.uxf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +31,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Henning_Georgi" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,7 +94,72 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhackNMoles">
+  <component name="RunManager" selected="Application.A">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe16.A" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt4.Aufgabe16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aufgabe14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.Aufgabe14" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt3.Aufgabe14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Blatt3.Aufgabe12.B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe12.B" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt3.Aufgabe12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Blatt3.Aufgabe13.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe13.A" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt3.Aufgabe13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Blatt3.Aufgabe13.B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe13.B" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt3.Aufgabe13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Blatt4.Aufgabe19.A" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe19.A" />
       <module name="UebungInfo2" />
@@ -137,87 +212,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe33.CountDown" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt7.Aufgabe33.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe33.KeyCounter" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt7.Aufgabe33.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LineFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe34.LineFrame" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt7.Aufgabe34.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MausHighligther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe34.MausHighligther" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt7.Aufgabe34.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhackNMoles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt7.Aufgabe3132.WhackNMoles" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt7.Aufgabe3132.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Blatt4.Aufgabe19.A" />
       <item itemvalue="Application.C" />
-      <item itemvalue="Application.WhackNMoles" />
-      <item itemvalue="Application.LineFrame" />
-      <item itemvalue="Application.MausHighligther" />
-      <item itemvalue="Application.CountDown" />
-      <item itemvalue="Application.KeyCounter" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="Application.Aufgabe14" />
+      <item itemvalue="Application.Blatt3.Aufgabe12.B" />
+      <item itemvalue="Application.Blatt3.Aufgabe13.A" />
+      <item itemvalue="Application.Blatt3.Aufgabe13.B" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WhackNMoles" />
-        <item itemvalue="Application.LineFrame" />
-        <item itemvalue="Application.MausHighligther" />
-        <item itemvalue="Application.CountDown" />
-        <item itemvalue="Application.KeyCounter" />
+        <item itemvalue="Application.Blatt3.Aufgabe13.B" />
+        <item itemvalue="Application.Blatt3.Aufgabe13.A" />
+        <item itemvalue="Application.Blatt3.Aufgabe12.B" />
+        <item itemvalue="Application.Aufgabe14" />
+        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +257,19 @@
       <workItem from="1684052307368" duration="5610000" />
       <workItem from="1684694293087" duration="2974000" />
       <workItem from="1685944350458" duration="3186000" />
+      <workItem from="1686833784794" duration="554000" />
+      <workItem from="1687014253861" duration="215000" />
+      <workItem from="1687014746692" duration="626000" />
+      <workItem from="1687155367561" duration="606000" />
+      <workItem from="1687355229418" duration="3674000" />
+      <workItem from="1687712859413" duration="12000" />
+      <workItem from="1687715301278" duration="1099000" />
+      <workItem from="1687716873145" duration="155000" />
+      <workItem from="1687856525883" duration="1330000" />
+      <workItem from="1687874873776" duration="734000" />
+      <workItem from="1688109649522" duration="29000" />
+      <workItem from="1688485656451" duration="390000" />
+      <workItem from="1688486064600" duration="2014000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe 2,3">
       <created>1682587716419</created>
@@ -346,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687044936794</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="class instead of datatype &amp; finished Aufgabe38+39b">
+      <created>1687716376516</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687716376516</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,18 +404,8 @@
     <MESSAGE value="added Aufgabe2627" />
     <MESSAGE value="added Aufgabe29" />
     <MESSAGE value="added Aufgabe31,32,33" />
-    <MESSAGE value="added Aufgabe34" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Aufgabe34" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Blatt7/Aufgabe3132/WhackNMoles.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added Blatt_8" />
+    <MESSAGE value="class instead of datatype &amp; finished Aufgabe38+39b" />
+    <option name="LAST_COMMIT_MESSAGE" value="class instead of datatype &amp; finished Aufgabe38+39b" />
   </component>
 </project>
