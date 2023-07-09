@@ -57,12 +57,12 @@ public class ListBankAccounts extends JDialog implements ActionListener, Propert
     public void propertyChange(PropertyChangeEvent e) {
         updateList();
         if (e.getPropertyName().equals("bankAccount")) {
-            BankAccount account = (BankAccount) e.getNewValue();
-            if (account != null)
-                account.addPropertyChangeListener(this);
+            BankAccount b = (BankAccount) e.getNewValue();
+            if (b != null)
+                b.addPropertyChangeListener(this);
             else {
-                account = (BankAccount) e.getOldValue();
-                account.removePropertyChangeListener(this);
+                b = (BankAccount) e.getOldValue();
+                b.removePropertyChangeListener(this);
             }
         }
     }
