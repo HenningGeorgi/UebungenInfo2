@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>80</y>
+      <w>290</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Hotel
+--
++Hotel(
+	angestellte: java.util.ArrayList&lt;Angestellter&gt;, 
+	gäste: java.util.ArrayList&lt;Gast&gt;, 
+	räume: java.util.ArrayList&lt;Raum&gt;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>80</y>
+      <w>570</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Raum
+--
+-anzahlBetten: Integer {anzahlBetten &gt; 0}
+-preisProTag: Real {readonly} {preisProTag &gt; 0}
+--
+#Raum(anzahlBetten: Integer, preisProTag: Integer) {java.lang.IllegalArgumentException}
++getAnzahlBetten(): Integer
++setAnzahlBetten(in anzahl: Integer) {java.lang.IllegalArgumentException}
+-checkAnzahlBetten(in anzahl: Integer): boolean
++getPreisProTag(): Real
+-checkPreisProTag(in preis: Real): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1160</x>
+      <y>490</y>
+      <w>540</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Buchung
+--
+-beginnDatum: java.time.LocalDate
+-endDatum: java.time.LocalDate
+--
++Buchung(beginnDatum: java.time.LocalDate, endDatum: java.time.LocalDate)
++getBeginnDatum(): java.time.LocalDate
++setBeginnDatum(in datum: java.time.LocalDate)
++getEndDatum(): java.time.LocalDate
++setEndDatum(in datum: java.time.LocalDate) {java.lang.IllegalArgumentException}
+-checkEndDatum(in datum: java.time.LocalDate): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1200</x>
+      <y>90</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Rechnung
+--
+-bezahlt: boolean
+--
++berechnePreis()
++getBezahlt(): boolean
++setBezahlt(in bezahlt: boolean)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>350</y>
+      <w>290</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Luxussuite
+--
++Luxussuite(privatkellner: Angestellter)
++getPrivatkellner(): Angestellter
++setPrivatkellner(in angestellter: Angestellter)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>350</y>
+      <w>310</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Familienzimmer
+--
++checkAnzahlBetten(in anzahl: Integer): boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>370</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Angestellter
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>640</y>
+      <w>280</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Gast
+--
+-name: String
+-stammgast: boolean
+--
++Gast(name: String, stammgast: boolean)
++getName(): String
++setName(in name: String)
++getStammmGast(): boolean
++setStammgast(in stammgast: boolean)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>260</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+{anzahlBetten &gt;= 3}</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>260</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>160</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+r2=-räume
+m2=[0..*]</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1300</x>
+      <y>270</y>
+      <w>110</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>260</y>
+      <w>100</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=[0..*]
+r1=-angestellte</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>420</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-privatkellner
+m1=[1..1]</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>260</y>
+      <w>130</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-gäste
+m1=[0..*]</panel_attributes>
+    <additional_attributes>70.0;380.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1090</x>
+      <y>260</y>
+      <w>130</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-räume
+m1=[1..*]</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>600</y>
+      <w>510</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-buchungen
+m1=[1..*]</panel_attributes>
+    <additional_attributes>490.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+</diagram>
