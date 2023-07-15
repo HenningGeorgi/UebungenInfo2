@@ -82,18 +82,17 @@ public class ChangeBankAccount extends JDialog implements ActionListener, Proper
 
     @Override
     public void propertyChange(PropertyChangeEvent e) {
-	if (e.getPropertyName().equals("bank account")) {
-	    BankAccount b = (BankAccount) e.getNewValue();
-	    if (b != null)
-			b.addPropertyChangeListener(this);
-	    else {
-			b = (BankAccount) e.getOldValue();
-			b.removePropertyChangeListener(this);
-		if (b.equals(subject))
-		    dispose();
-	    }
-	}
-
+		if (e.getPropertyName().equals("bank account")) {
+			BankAccount b = (BankAccount) e.getNewValue();
+			if (b != null)
+				b.addPropertyChangeListener(this);
+			else {
+				b = (BankAccount) e.getOldValue();
+				b.removePropertyChangeListener(this);
+			if (b.equals(subject))
+				dispose();
+			}
+		}
     }
 
     private void save() {
