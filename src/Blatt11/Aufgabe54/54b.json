@@ -1,0 +1,17 @@
+{
+  "RezepteBuch": [
+    {   "name": "Pfannkuchen",
+        "Zutaten": [
+          {"name":"Eier", "gewicht": "200"},
+          {"name":"Mehl", "gewicht": "250"},
+          {"name":"Milch", "gewicht": "375"}
+        ]
+    },
+    {   "name": "Milchreis",
+      "Zutaten": [
+        {"name":"Milchreis", "gewicht": "125"},
+        {"name":"Milch", "gewicht": "750"}
+      ]
+    }
+  ]
+}
