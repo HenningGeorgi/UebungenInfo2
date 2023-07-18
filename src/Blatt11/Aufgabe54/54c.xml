@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTM-8"?>
+<alleMitarbeiter>
+    <Mitarbeiter>
+        <vorname>Claudia</vorname>
+        <nachname>Chef</nachname>
+        <gehalt>9001</gehalt>
+    </Mitarbeiter>
+    <Mitarbeiter>
+        <vorname>Alexander</vorname>
+        <nachname>Arbeiter</nachname>
+        <gehalt>3000</gehalt>
+    </Mitarbeiter>
+    <Mitarbeiter>
+        <vorname>Mattilda</vorname>
+        <nachname>Masterandin</nachname>
+        <gehalt>1200</gehalt>
+    </Mitarbeiter>
+</alleMitarbeiter>

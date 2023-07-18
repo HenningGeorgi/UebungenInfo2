@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTM-8"?>
+<AlbumManager>
+    <Album>
+        <artist>Linkin Park</artist>
+        <name>Minutes to Midnight</name>
+        <price>5.99€</price>
+    </Album>
+    <Album>
+        <artist>Juice WRLD</artist>
+        <name>Fighting Demons</name>
+        <price>16.89€</price>
+    </Album>
+</AlbumManager>
