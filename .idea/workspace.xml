@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="class instead of datatype &amp; finished Aufgabe38+39b">
-      <change afterPath="$PROJECT_DIR$/src/Blatt11/Aufgabe54/54a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt11/Aufgabe54/54b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blatt11/Aufgabe54/54c.xml" afterDir="false" />
+    <list default="true" id="df74ee91-88e4-4d4a-a190-d68504174bb3" name="Changes" comment="added Blatt12">
+      <change afterPath="$PROJECT_DIR$/src/Blatt12/Metronom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blatt12/SometimesClosable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt10/gui/BankGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blatt10/gui/BankGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blatt12/A58.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -95,46 +100,7 @@
       <recent name="C:\Users\henni\OneDrive\Studium\B.Sc. Informatik Uni Augsburg\2. Semester\Info 2\Übungen\UebungInfo2\src\Blatt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt4.Aufgabe16.A" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt4.Aufgabe16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Aufgabe14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe14.Aufgabe14" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt3.Aufgabe14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Blatt3.Aufgabe12.B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe12.B" />
-      <module name="UebungInfo2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Blatt3.Aufgabe12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SometimesClosable">
     <configuration name="Blatt3.Aufgabe13.A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Blatt3.Aufgabe13.A" />
       <module name="UebungInfo2" />
@@ -213,22 +179,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Metronom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt12.Metronom" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SometimesClosable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt12.SometimesClosable" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blatt12.Test" />
+      <module name="UebungInfo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blatt12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Blatt4.Aufgabe19.A" />
       <item itemvalue="Application.C" />
-      <item itemvalue="Application.A" />
-      <item itemvalue="Application.Aufgabe14" />
-      <item itemvalue="Application.Blatt3.Aufgabe12.B" />
+      <item itemvalue="Application.Metronom" />
+      <item itemvalue="Application.SometimesClosable" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Blatt3.Aufgabe13.A" />
       <item itemvalue="Application.Blatt3.Aufgabe13.B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SometimesClosable" />
+        <item itemvalue="Application.Metronom" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Blatt3.Aufgabe13.B" />
         <item itemvalue="Application.Blatt3.Aufgabe13.A" />
-        <item itemvalue="Application.Blatt3.Aufgabe12.B" />
-        <item itemvalue="Application.Aufgabe14" />
-        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +275,16 @@
       <workItem from="1687874873776" duration="734000" />
       <workItem from="1688109649522" duration="29000" />
       <workItem from="1688485656451" duration="390000" />
-      <workItem from="1688486064600" duration="2014000" />
+      <workItem from="1688486064600" duration="2062000" />
+      <workItem from="1688569852159" duration="2397000" />
+      <workItem from="1688917769446" duration="671000" />
+      <workItem from="1688928230540" duration="98000" />
+      <workItem from="1688928633691" duration="15000" />
+      <workItem from="1689422629662" duration="5779000" />
+      <workItem from="1689670428419" duration="6983000" />
+      <workItem from="1689688197251" duration="3939000" />
+      <workItem from="1689841058896" duration="1734000" />
+      <workItem from="1689854816294" duration="3559000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe 2,3">
       <created>1682587716419</created>
@@ -377,7 +391,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687716376516</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added Blatt10">
+      <created>1688489930109</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688489930109</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added A53">
+      <created>1689427813037</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689427813037</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added Blatt12">
+      <created>1689679054029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689679054029</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +442,9 @@
     <MESSAGE value="added Aufgabe31,32,33" />
     <MESSAGE value="added Blatt_8" />
     <MESSAGE value="class instead of datatype &amp; finished Aufgabe38+39b" />
-    <option name="LAST_COMMIT_MESSAGE" value="class instead of datatype &amp; finished Aufgabe38+39b" />
+    <MESSAGE value="added Blatt10" />
+    <MESSAGE value="added A53" />
+    <MESSAGE value="added Blatt12" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Blatt12" />
   </component>
 </project>

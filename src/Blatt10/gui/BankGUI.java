@@ -68,30 +68,30 @@ public class BankGUI extends JFrame implements ActionListener {
         System.exit(0);
     }
 
-    public static void main(String[] args) {
-        BankAccountContainer container = BankAccountContainer.instance();
-        try {
-            BankAccount temp = new BankAccount("Dagobert Duck", "ENTENHAUSEN1");
-            temp.addBalance(23561.65);
-            container.linkBankAccount(temp);
-            temp = new BankAccount("Dagobert Duck", "ENTENHAUSEN2");
-            temp.addBalance(336.09);
-            container.linkBankAccount(temp);
-            temp = new BankAccount("Dagobert Duck", "ENTENHAUSEN3");
-            temp.addBalance(123226.09);
-            container.linkBankAccount(temp);
-            temp = new BankAccount("Donald Duck", "ENTENHAUSEN4");
-            temp.addBalance(- 3461.65);
-            container.linkBankAccount(temp);
-            temp = new BankAccount("Donald Duck", "PHANTOMIAS12");
-            temp.addBalance(44239.50);
-            container.linkBankAccount(temp);
-            temp = new BankAccount("Klaas Klever", "ENTENHAUSEN5");
-            temp.addBalance(546753.12);
-            container.linkBankAccount(temp);
-        } catch (IllegalBankingException e) {
-            throw new RuntimeException(e);
-        }
-        new BankGUI();
-    }
+//    public static void main(String[] args) {
+//        BankAccountContainer container = BankAccountContainer.instance();
+//        try {
+//            BankAccount temp = new BankAccount("Dagobert Duck", "ENTENHAUSEN1");
+//            temp.addBalance(23561.65);
+//            container.linkBankAccount(temp);
+//            temp = new BankAccount("Dagobert Duck", "ENTENHAUSEN2");
+//            temp.addBalance(336.09);
+//            container.linkBankAccount(temp);
+//            temp = new BankAccount("Dagobert Duck", "ENTENHAUSEN3");
+//            temp.addBalance(123226.09);
+//            container.linkBankAccount(temp);
+//            temp = new BankAccount("Donald Duck", "ENTENHAUSEN4");
+//            temp.addBalance(- 3461.65);
+//            container.linkBankAccount(temp);
+//            temp = new BankAccount("Donald Duck", "PHANTOMIAS12");
+//            temp.addBalance(44239.50);
+//            container.linkBankAccount(temp);
+//            temp = new BankAccount("Klaas Klever", "ENTENHAUSEN5");
+//            temp.addBalance(546753.12);
+//            container.linkBankAccount(temp);
+//        } catch (IllegalBankingException e) {
+//            throw new RuntimeException(e);
+//        }
+//        new BankGUI();
+//    }
 }
