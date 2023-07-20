@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SometimesClosable extends JFrame implements ActionListener, Runnable {
-    private Thread t;
+    private static Thread t;
     private final JButton closeButton = new JButton("Close");
     private boolean enabled = false;
 
@@ -19,21 +19,15 @@ public class SometimesClosable extends JFrame implements ActionListener, Runnabl
         setVisible(true);
     }
 
-    public void start() {
-        t = new Thread(this);
-        t.start();
-    }
-
     @Override
     public void run() {
-        while (t.isInterrupted()) {
+        while (!t.isInterrupted()) {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 t.interrupt();
             }
             closeButton.setEnabled(enabled);
-            repaint();
             enabled = !enabled;
         }
     }
@@ -49,7 +43,8 @@ public class SometimesClosable extends JFrame implements ActionListener, Runnabl
     }
 
     public static void main(String[] args) {
-        SometimesClosable sometimesClosable = new SometimesClosable();
-        sometimesClosable.start();
+        SometimesClosable s = new SometimesClosable();
+        t = new Thread(s);
+        t.start();
     }
 }
